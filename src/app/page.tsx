@@ -1,12 +1,6 @@
-// src/app/page.tsx
-import Nav from "../components/nav";
-import Footer from "../components/footer";
-
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
-      <Nav />
-
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-gray-50 dark:bg-gray-800 py-20">
@@ -104,8 +98,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }
